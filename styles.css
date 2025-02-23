@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #e0f7ff;
-    /* Light blue background */
+    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,10 +12,9 @@ body {
 }
 
 header {
-    background: #005f99;
-    /* Dark blue */
+    background: #333;
     color: white;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     text-align: center;
 }
@@ -40,15 +38,8 @@ img {
     margin-bottom: 20px;
 }
 
-h1,
-summary {
-    color: #005f99;
-    /* Dark blue text */
-}
-
 .bio {
-    color: #003f66;
-    /* Slightly darker blue */
+    color: #666;
     line-height: 1.6;
 }
 
@@ -60,8 +51,7 @@ details {
 footer {
     margin-top: 20px;
     padding: 10px;
-    background: #005f99;
-    /* Dark blue footer */
+    background: #333;
     color: white;
     width: 100%;
     text-align: center;
