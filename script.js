@@ -18,3 +18,12 @@ async function fetchQuote() {
 }
 
 document.addEventListener("DOMContentLoaded", fetchQuote);
+
+// Additional Interactivity: Mousemove effect on the header
+const header = document.querySelector("header");
+
+document.addEventListener("mousemove", (event) => {
+    const x = (event.clientX / window.innerWidth) * 100;
+    const y = (event.clientY / window.innerHeight) * 100;
+    header.style.background = `rgb(${x * 2.5}, ${y * 2.5}, 150)`;
+});
