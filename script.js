@@ -1,3 +1,4 @@
+// Fetch data from an API
 async function fetchQuote() {
   try {
     console.log("Fetching quote...");
@@ -19,7 +20,7 @@ async function fetchQuote() {
 
 document.addEventListener("DOMContentLoaded", fetchQuote);
 
-// Additional Interactivity: Mousemove effect on the header
+// Extra Credit: Additional Interactivity (Mousemove effect on the header)
 const header = document.querySelector("header");
 
 document.addEventListener("mousemove", (event) => {
